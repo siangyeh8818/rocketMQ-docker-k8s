@@ -669,3 +669,7 @@
 2021-01-19 15:16:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
 2021-01-19 15:16:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
 2021-01-19 15:16:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:17:21 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:17:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:17:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:17:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK

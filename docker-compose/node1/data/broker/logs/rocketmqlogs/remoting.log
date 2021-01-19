@@ -3229,3 +3229,15 @@ io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: 
 2021-01-19 15:16:30 INFO NettyServerCodecThread_4 - NETTY SERVER PIPELINE: channelUnregistered, the channel[10.140.0.2:33486]
 2021-01-19 15:16:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelInactive, the channel[10.140.0.2:42138]
 2021-01-19 15:16:30 INFO NettyServerCodecThread_7 - NETTY SERVER PIPELINE: channelUnregistered, the channel[10.140.0.2:42138]
+2021-01-19 15:17:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelRegistered 10.140.0.2:42150
+2021-01-19 15:17:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelActive, the channel[10.140.0.2:42150]
+2021-01-19 15:17:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelInactive, the channel[10.140.0.2:42150]
+2021-01-19 15:17:00 INFO NettyServerCodecThread_8 - NETTY SERVER PIPELINE: channelUnregistered, the channel[10.140.0.2:42150]
+2021-01-19 15:17:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelRegistered 10.140.0.2:42160
+2021-01-19 15:17:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelActive, the channel[10.140.0.2:42160]
+2021-01-19 15:17:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelRegistered 10.140.0.2:33508
+2021-01-19 15:17:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelActive, the channel[10.140.0.2:33508]
+2021-01-19 15:17:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelInactive, the channel[10.140.0.2:42160]
+2021-01-19 15:17:30 INFO NettyServerCodecThread_1 - NETTY SERVER PIPELINE: channelUnregistered, the channel[10.140.0.2:42160]
+2021-01-19 15:17:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelInactive, the channel[10.140.0.2:33508]
+2021-01-19 15:17:30 INFO NettyServerCodecThread_5 - NETTY SERVER PIPELINE: channelUnregistered, the channel[10.140.0.2:33508]

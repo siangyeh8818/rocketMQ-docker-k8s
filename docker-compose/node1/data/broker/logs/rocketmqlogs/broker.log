@@ -1,0 +1,671 @@
+2021-01-19 14:32:24 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2021-01-19 14:32:24 INFO main - namesrvAddr=10.140.0.2:9876
+2021-01-19 14:32:24 INFO main - brokerIP1=10.140.0.2
+2021-01-19 14:32:24 INFO main - brokerIP2=172.17.0.1
+2021-01-19 14:32:24 INFO main - brokerName=broker-a
+2021-01-19 14:32:24 INFO main - brokerClusterName=rocketmq-cluster
+2021-01-19 14:32:24 INFO main - brokerId=0
+2021-01-19 14:32:24 INFO main - brokerPermission=6
+2021-01-19 14:32:24 INFO main - defaultTopicQueueNums=4
+2021-01-19 14:32:24 INFO main - autoCreateTopicEnable=true
+2021-01-19 14:32:24 INFO main - clusterTopicEnable=true
+2021-01-19 14:32:24 INFO main - brokerTopicEnable=true
+2021-01-19 14:32:24 INFO main - autoCreateSubscriptionGroup=true
+2021-01-19 14:32:24 INFO main - messageStorePlugIn=
+2021-01-19 14:32:24 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2021-01-19 14:32:24 INFO main - traceTopicEnable=false
+2021-01-19 14:32:24 INFO main - sendMessageThreadPoolNums=1
+2021-01-19 14:32:24 INFO main - pullMessageThreadPoolNums=20
+2021-01-19 14:32:24 INFO main - queryMessageThreadPoolNums=10
+2021-01-19 14:32:24 INFO main - adminBrokerThreadPoolNums=16
+2021-01-19 14:32:24 INFO main - clientManageThreadPoolNums=32
+2021-01-19 14:32:24 INFO main - consumerManageThreadPoolNums=32
+2021-01-19 14:32:24 INFO main - heartbeatThreadPoolNums=2
+2021-01-19 14:32:24 INFO main - endTransactionThreadPoolNums=12
+2021-01-19 14:32:24 INFO main - flushConsumerOffsetInterval=5000
+2021-01-19 14:32:24 INFO main - flushConsumerOffsetHistoryInterval=60000
+2021-01-19 14:32:24 INFO main - rejectTransactionMessage=false
+2021-01-19 14:32:24 INFO main - fetchNamesrvAddrByAddressServer=false
+2021-01-19 14:32:24 INFO main - sendThreadPoolQueueCapacity=10000
+2021-01-19 14:32:24 INFO main - pullThreadPoolQueueCapacity=100000
+2021-01-19 14:32:24 INFO main - queryThreadPoolQueueCapacity=20000
+2021-01-19 14:32:24 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2021-01-19 14:32:24 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2021-01-19 14:32:24 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2021-01-19 14:32:24 INFO main - endTransactionPoolQueueCapacity=100000
+2021-01-19 14:32:24 INFO main - filterServerNums=0
+2021-01-19 14:32:24 INFO main - longPollingEnable=true
+2021-01-19 14:32:24 INFO main - shortPollingTimeMills=1000
+2021-01-19 14:32:24 INFO main - notifyConsumerIdsChangedEnable=true
+2021-01-19 14:32:24 INFO main - highSpeedMode=false
+2021-01-19 14:32:24 INFO main - commercialEnable=true
+2021-01-19 14:32:24 INFO main - commercialTimerCount=1
+2021-01-19 14:32:24 INFO main - commercialTransCount=1
+2021-01-19 14:32:24 INFO main - commercialBigCount=1
+2021-01-19 14:32:24 INFO main - commercialBaseCount=1
+2021-01-19 14:32:24 INFO main - transferMsgByHeap=true
+2021-01-19 14:32:24 INFO main - maxDelayTime=40
+2021-01-19 14:32:24 INFO main - regionId=DefaultRegion
+2021-01-19 14:32:24 INFO main - registerBrokerTimeoutMills=6000
+2021-01-19 14:32:24 INFO main - slaveReadEnable=false
+2021-01-19 14:32:24 INFO main - disableConsumeIfConsumerReadSlowly=false
+2021-01-19 14:32:24 INFO main - consumerFallbehindThreshold=17179869184
+2021-01-19 14:32:24 INFO main - brokerFastFailureEnable=true
+2021-01-19 14:32:24 INFO main - waitTimeMillsInSendQueue=200
+2021-01-19 14:32:24 INFO main - waitTimeMillsInPullQueue=5000
+2021-01-19 14:32:24 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2021-01-19 14:32:24 INFO main - waitTimeMillsInTransactionQueue=3000
+2021-01-19 14:32:24 INFO main - startAcceptSendRequestTimeStamp=0
+2021-01-19 14:32:24 INFO main - traceOn=true
+2021-01-19 14:32:24 INFO main - enableCalcFilterBitMap=false
+2021-01-19 14:32:24 INFO main - expectConsumerNumUseFilter=32
+2021-01-19 14:32:24 INFO main - maxErrorRateOfBloomFilter=20
+2021-01-19 14:32:24 INFO main - filterDataCleanTimeSpan=86400000
+2021-01-19 14:32:24 INFO main - filterSupportRetry=false
+2021-01-19 14:32:24 INFO main - enablePropertyFilter=false
+2021-01-19 14:32:24 INFO main - compressedRegister=false
+2021-01-19 14:32:24 INFO main - forceRegister=true
+2021-01-19 14:32:24 INFO main - registerNameServerPeriod=30000
+2021-01-19 14:32:24 INFO main - transactionTimeOut=6000
+2021-01-19 14:32:24 INFO main - transactionCheckMax=15
+2021-01-19 14:32:24 INFO main - transactionCheckInterval=60000
+2021-01-19 14:32:24 INFO main - aclEnable=false
+2021-01-19 14:32:24 INFO main - listenPort=10911
+2021-01-19 14:32:24 INFO main - serverWorkerThreads=8
+2021-01-19 14:32:24 INFO main - serverCallbackExecutorThreads=0
+2021-01-19 14:32:24 INFO main - serverSelectorThreads=3
+2021-01-19 14:32:24 INFO main - serverOnewaySemaphoreValue=256
+2021-01-19 14:32:24 INFO main - serverAsyncSemaphoreValue=64
+2021-01-19 14:32:24 INFO main - serverChannelMaxIdleTimeSeconds=120
+2021-01-19 14:32:24 INFO main - serverSocketSndBufSize=131072
+2021-01-19 14:32:24 INFO main - serverSocketRcvBufSize=131072
+2021-01-19 14:32:24 INFO main - serverPooledByteBufAllocatorEnable=true
+2021-01-19 14:32:24 INFO main - useEpollNativeSelector=false
+2021-01-19 14:32:24 INFO main - clientWorkerThreads=4
+2021-01-19 14:32:24 INFO main - clientCallbackExecutorThreads=2
+2021-01-19 14:32:24 INFO main - clientOnewaySemaphoreValue=65535
+2021-01-19 14:32:24 INFO main - clientAsyncSemaphoreValue=65535
+2021-01-19 14:32:24 INFO main - connectTimeoutMillis=3000
+2021-01-19 14:32:24 INFO main - channelNotActiveInterval=60000
+2021-01-19 14:32:24 INFO main - clientChannelMaxIdleTimeSeconds=120
+2021-01-19 14:32:24 INFO main - clientSocketSndBufSize=131072
+2021-01-19 14:32:24 INFO main - clientSocketRcvBufSize=131072
+2021-01-19 14:32:24 INFO main - clientPooledByteBufAllocatorEnable=false
+2021-01-19 14:32:24 INFO main - clientCloseSocketIfTimeout=false
+2021-01-19 14:32:24 INFO main - useTLS=false
+2021-01-19 14:32:24 INFO main - storePathRootDir=/home/rocketmq/store
+2021-01-19 14:32:24 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2021-01-19 14:32:24 INFO main - mapedFileSizeCommitLog=1073741824
+2021-01-19 14:32:24 INFO main - mapedFileSizeConsumeQueue=300000
+2021-01-19 14:32:24 INFO main - enableConsumeQueueExt=false
+2021-01-19 14:32:24 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2021-01-19 14:32:24 INFO main - bitMapLengthConsumeQueueExt=64
+2021-01-19 14:32:24 INFO main - flushIntervalCommitLog=500
+2021-01-19 14:32:24 INFO main - commitIntervalCommitLog=200
+2021-01-19 14:32:24 INFO main - useReentrantLockWhenPutMessage=false
+2021-01-19 14:32:24 INFO main - flushCommitLogTimed=false
+2021-01-19 14:32:24 INFO main - flushIntervalConsumeQueue=1000
+2021-01-19 14:32:24 INFO main - cleanResourceInterval=10000
+2021-01-19 14:32:24 INFO main - deleteCommitLogFilesInterval=100
+2021-01-19 14:32:24 INFO main - deleteConsumeQueueFilesInterval=100
+2021-01-19 14:32:24 INFO main - destroyMapedFileIntervalForcibly=120000
+2021-01-19 14:32:24 INFO main - redeleteHangedFileInterval=120000
+2021-01-19 14:32:24 INFO main - deleteWhen=04
+2021-01-19 14:32:24 INFO main - diskMaxUsedSpaceRatio=88
+2021-01-19 14:32:24 INFO main - fileReservedTime=18
+2021-01-19 14:32:24 INFO main - putMsgIndexHightWater=600000
+2021-01-19 14:32:24 INFO main - maxMessageSize=65536
+2021-01-19 14:32:24 INFO main - checkCRCOnRecover=true
+2021-01-19 14:32:24 INFO main - flushCommitLogLeastPages=4
+2021-01-19 14:32:24 INFO main - commitCommitLogLeastPages=4
+2021-01-19 14:32:24 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2021-01-19 14:32:24 INFO main - flushConsumeQueueLeastPages=2
+2021-01-19 14:32:24 INFO main - flushCommitLogThoroughInterval=10000
+2021-01-19 14:32:24 INFO main - commitCommitLogThoroughInterval=200
+2021-01-19 14:32:24 INFO main - flushConsumeQueueThoroughInterval=60000
+2021-01-19 14:32:24 INFO main - maxTransferBytesOnMessageInMemory=262144
+2021-01-19 14:32:24 INFO main - maxTransferCountOnMessageInMemory=32
+2021-01-19 14:32:24 INFO main - maxTransferBytesOnMessageInDisk=65536
+2021-01-19 14:32:24 INFO main - maxTransferCountOnMessageInDisk=8
+2021-01-19 14:32:24 INFO main - accessMessageInMemoryMaxRatio=40
+2021-01-19 14:32:24 INFO main - messageIndexEnable=true
+2021-01-19 14:32:24 INFO main - maxHashSlotNum=5000000
+2021-01-19 14:32:24 INFO main - maxIndexNum=20000000
+2021-01-19 14:32:24 INFO main - maxMsgsNumBatch=64
+2021-01-19 14:32:24 INFO main - messageIndexSafe=false
+2021-01-19 14:32:24 INFO main - haListenPort=10912
+2021-01-19 14:32:24 INFO main - haSendHeartbeatInterval=5000
+2021-01-19 14:32:24 INFO main - haHousekeepingInterval=20000
+2021-01-19 14:32:24 INFO main - haTransferBatchSize=32768
+2021-01-19 14:32:24 INFO main - haMasterAddress=
+2021-01-19 14:32:24 INFO main - haSlaveFallbehindMax=268435456
+2021-01-19 14:32:24 INFO main - brokerRole=SYNC_MASTER
+2021-01-19 14:32:24 INFO main - flushDiskType=ASYNC_FLUSH
+2021-01-19 14:32:24 INFO main - syncFlushTimeout=5000
+2021-01-19 14:32:24 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2021-01-19 14:32:24 INFO main - flushDelayOffsetInterval=10000
+2021-01-19 14:32:24 INFO main - cleanFileForciblyEnable=true
+2021-01-19 14:32:24 INFO main - warmMapedFileEnable=false
+2021-01-19 14:32:24 INFO main - offsetCheckInSlave=false
+2021-01-19 14:32:24 INFO main - debugLockEnable=false
+2021-01-19 14:32:24 INFO main - duplicationEnable=false
+2021-01-19 14:32:24 INFO main - diskFallRecorded=true
+2021-01-19 14:32:24 INFO main - osPageCacheBusyTimeOutMills=1000
+2021-01-19 14:32:24 INFO main - defaultQueryMaxNum=32
+2021-01-19 14:32:24 INFO main - transientStorePoolEnable=false
+2021-01-19 14:32:24 INFO main - transientStorePoolSize=5
+2021-01-19 14:32:24 INFO main - fastFailIfNoBufferInStorePool=false
+2021-01-19 14:32:24 INFO main - enableDLegerCommitLog=false
+2021-01-19 14:32:24 INFO main - dLegerGroup=
+2021-01-19 14:32:24 INFO main - dLegerPeers=
+2021-01-19 14:32:24 INFO main - dLegerSelfId=
+2021-01-19 14:32:25 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:32:25 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:32:25 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:32:25 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:32:25 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:32:25 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:32:25 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:32:25 INFO main - load /home/rocketmq/store/config/topics.json OK
+2021-01-19 14:32:25 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2021-01-19 14:32:25 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2021-01-19 14:32:25 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2021-01-19 14:32:25 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2021-01-19 14:32:27 INFO main - Set user specified name server address: 10.140.0.2:9876
+2021-01-19 14:32:27 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2021-01-19 14:32:27 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2021-01-19 14:32:27 INFO main - The broker dose not enable acl
+2021-01-19 14:32:27 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2021-01-19 14:32:27 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2021-01-19 14:32:27 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2021-01-19 14:32:27 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2021-01-19 14:32:27 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2021-01-19 14:32:27 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2021-01-19 14:32:27 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2021-01-19 14:32:28 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2021-01-19 14:32:28 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2021-01-19 14:32:28 INFO FileWatchService - FileWatchService service started
+2021-01-19 14:32:28 INFO PullRequestHoldService - PullRequestHoldService service started
+2021-01-19 14:32:28 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2021-01-19 14:32:28 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:32:28 INFO main - The broker[broker-a, 10.140.0.2:10911] boot success. serializeType=JSON and name server is 10.140.0.2:9876
+2021-01-19 14:32:37 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:32:37 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:32:38 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:33:08 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:33:37 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:33:37 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:33:38 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:34:08 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:34:37 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:34:37 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:34:38 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:35:08 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:35:37 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:35:37 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:35:38 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:36:08 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:36:37 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:36:37 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:36:38 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:37:08 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:37:37 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:37:37 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:37:38 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:38:08 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:38:37 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:38:37 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:38:38 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:39:08 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:39:37 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:39:37 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:39:38 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:58:43 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2021-01-19 14:58:43 INFO main - namesrvAddr=10.140.0.2:9876
+2021-01-19 14:58:43 INFO main - brokerIP1=10.140.0.2
+2021-01-19 14:58:43 INFO main - brokerIP2=172.17.0.1
+2021-01-19 14:58:43 INFO main - brokerName=broker-a
+2021-01-19 14:58:43 INFO main - brokerClusterName=rocketmq-cluster
+2021-01-19 14:58:43 INFO main - brokerId=0
+2021-01-19 14:58:43 INFO main - brokerPermission=6
+2021-01-19 14:58:43 INFO main - defaultTopicQueueNums=4
+2021-01-19 14:58:43 INFO main - autoCreateTopicEnable=true
+2021-01-19 14:58:43 INFO main - clusterTopicEnable=true
+2021-01-19 14:58:43 INFO main - brokerTopicEnable=true
+2021-01-19 14:58:43 INFO main - autoCreateSubscriptionGroup=true
+2021-01-19 14:58:43 INFO main - messageStorePlugIn=
+2021-01-19 14:58:43 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2021-01-19 14:58:43 INFO main - traceTopicEnable=false
+2021-01-19 14:58:43 INFO main - sendMessageThreadPoolNums=1
+2021-01-19 14:58:43 INFO main - pullMessageThreadPoolNums=20
+2021-01-19 14:58:43 INFO main - queryMessageThreadPoolNums=10
+2021-01-19 14:58:43 INFO main - adminBrokerThreadPoolNums=16
+2021-01-19 14:58:43 INFO main - clientManageThreadPoolNums=32
+2021-01-19 14:58:43 INFO main - consumerManageThreadPoolNums=32
+2021-01-19 14:58:43 INFO main - heartbeatThreadPoolNums=2
+2021-01-19 14:58:43 INFO main - endTransactionThreadPoolNums=12
+2021-01-19 14:58:43 INFO main - flushConsumerOffsetInterval=5000
+2021-01-19 14:58:43 INFO main - flushConsumerOffsetHistoryInterval=60000
+2021-01-19 14:58:43 INFO main - rejectTransactionMessage=false
+2021-01-19 14:58:43 INFO main - fetchNamesrvAddrByAddressServer=false
+2021-01-19 14:58:43 INFO main - sendThreadPoolQueueCapacity=10000
+2021-01-19 14:58:43 INFO main - pullThreadPoolQueueCapacity=100000
+2021-01-19 14:58:43 INFO main - queryThreadPoolQueueCapacity=20000
+2021-01-19 14:58:43 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2021-01-19 14:58:43 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2021-01-19 14:58:43 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2021-01-19 14:58:43 INFO main - endTransactionPoolQueueCapacity=100000
+2021-01-19 14:58:43 INFO main - filterServerNums=0
+2021-01-19 14:58:43 INFO main - longPollingEnable=true
+2021-01-19 14:58:43 INFO main - shortPollingTimeMills=1000
+2021-01-19 14:58:43 INFO main - notifyConsumerIdsChangedEnable=true
+2021-01-19 14:58:43 INFO main - highSpeedMode=false
+2021-01-19 14:58:43 INFO main - commercialEnable=true
+2021-01-19 14:58:43 INFO main - commercialTimerCount=1
+2021-01-19 14:58:43 INFO main - commercialTransCount=1
+2021-01-19 14:58:43 INFO main - commercialBigCount=1
+2021-01-19 14:58:43 INFO main - commercialBaseCount=1
+2021-01-19 14:58:43 INFO main - transferMsgByHeap=true
+2021-01-19 14:58:43 INFO main - maxDelayTime=40
+2021-01-19 14:58:43 INFO main - regionId=DefaultRegion
+2021-01-19 14:58:43 INFO main - registerBrokerTimeoutMills=6000
+2021-01-19 14:58:43 INFO main - slaveReadEnable=false
+2021-01-19 14:58:43 INFO main - disableConsumeIfConsumerReadSlowly=false
+2021-01-19 14:58:43 INFO main - consumerFallbehindThreshold=17179869184
+2021-01-19 14:58:43 INFO main - brokerFastFailureEnable=true
+2021-01-19 14:58:43 INFO main - waitTimeMillsInSendQueue=200
+2021-01-19 14:58:43 INFO main - waitTimeMillsInPullQueue=5000
+2021-01-19 14:58:43 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2021-01-19 14:58:43 INFO main - waitTimeMillsInTransactionQueue=3000
+2021-01-19 14:58:43 INFO main - startAcceptSendRequestTimeStamp=0
+2021-01-19 14:58:43 INFO main - traceOn=true
+2021-01-19 14:58:43 INFO main - enableCalcFilterBitMap=false
+2021-01-19 14:58:43 INFO main - expectConsumerNumUseFilter=32
+2021-01-19 14:58:43 INFO main - maxErrorRateOfBloomFilter=20
+2021-01-19 14:58:43 INFO main - filterDataCleanTimeSpan=86400000
+2021-01-19 14:58:43 INFO main - filterSupportRetry=false
+2021-01-19 14:58:43 INFO main - enablePropertyFilter=false
+2021-01-19 14:58:43 INFO main - compressedRegister=false
+2021-01-19 14:58:43 INFO main - forceRegister=true
+2021-01-19 14:58:43 INFO main - registerNameServerPeriod=30000
+2021-01-19 14:58:43 INFO main - transactionTimeOut=6000
+2021-01-19 14:58:43 INFO main - transactionCheckMax=15
+2021-01-19 14:58:43 INFO main - transactionCheckInterval=60000
+2021-01-19 14:58:43 INFO main - aclEnable=false
+2021-01-19 14:58:43 INFO main - listenPort=10911
+2021-01-19 14:58:43 INFO main - serverWorkerThreads=8
+2021-01-19 14:58:43 INFO main - serverCallbackExecutorThreads=0
+2021-01-19 14:58:43 INFO main - serverSelectorThreads=3
+2021-01-19 14:58:43 INFO main - serverOnewaySemaphoreValue=256
+2021-01-19 14:58:43 INFO main - serverAsyncSemaphoreValue=64
+2021-01-19 14:58:43 INFO main - serverChannelMaxIdleTimeSeconds=120
+2021-01-19 14:58:43 INFO main - serverSocketSndBufSize=131072
+2021-01-19 14:58:43 INFO main - serverSocketRcvBufSize=131072
+2021-01-19 14:58:43 INFO main - serverPooledByteBufAllocatorEnable=true
+2021-01-19 14:58:43 INFO main - useEpollNativeSelector=false
+2021-01-19 14:58:43 INFO main - clientWorkerThreads=4
+2021-01-19 14:58:43 INFO main - clientCallbackExecutorThreads=2
+2021-01-19 14:58:43 INFO main - clientOnewaySemaphoreValue=65535
+2021-01-19 14:58:43 INFO main - clientAsyncSemaphoreValue=65535
+2021-01-19 14:58:43 INFO main - connectTimeoutMillis=3000
+2021-01-19 14:58:43 INFO main - channelNotActiveInterval=60000
+2021-01-19 14:58:43 INFO main - clientChannelMaxIdleTimeSeconds=120
+2021-01-19 14:58:43 INFO main - clientSocketSndBufSize=131072
+2021-01-19 14:58:43 INFO main - clientSocketRcvBufSize=131072
+2021-01-19 14:58:43 INFO main - clientPooledByteBufAllocatorEnable=false
+2021-01-19 14:58:43 INFO main - clientCloseSocketIfTimeout=false
+2021-01-19 14:58:43 INFO main - useTLS=false
+2021-01-19 14:58:43 INFO main - storePathRootDir=/home/rocketmq/store
+2021-01-19 14:58:43 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2021-01-19 14:58:43 INFO main - mapedFileSizeCommitLog=1073741824
+2021-01-19 14:58:43 INFO main - mapedFileSizeConsumeQueue=300000
+2021-01-19 14:58:43 INFO main - enableConsumeQueueExt=false
+2021-01-19 14:58:43 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2021-01-19 14:58:43 INFO main - bitMapLengthConsumeQueueExt=64
+2021-01-19 14:58:43 INFO main - flushIntervalCommitLog=500
+2021-01-19 14:58:43 INFO main - commitIntervalCommitLog=200
+2021-01-19 14:58:43 INFO main - useReentrantLockWhenPutMessage=false
+2021-01-19 14:58:43 INFO main - flushCommitLogTimed=false
+2021-01-19 14:58:43 INFO main - flushIntervalConsumeQueue=1000
+2021-01-19 14:58:43 INFO main - cleanResourceInterval=10000
+2021-01-19 14:58:43 INFO main - deleteCommitLogFilesInterval=100
+2021-01-19 14:58:43 INFO main - deleteConsumeQueueFilesInterval=100
+2021-01-19 14:58:43 INFO main - destroyMapedFileIntervalForcibly=120000
+2021-01-19 14:58:43 INFO main - redeleteHangedFileInterval=120000
+2021-01-19 14:58:43 INFO main - deleteWhen=04
+2021-01-19 14:58:43 INFO main - diskMaxUsedSpaceRatio=88
+2021-01-19 14:58:43 INFO main - fileReservedTime=18
+2021-01-19 14:58:43 INFO main - putMsgIndexHightWater=600000
+2021-01-19 14:58:43 INFO main - maxMessageSize=65536
+2021-01-19 14:58:43 INFO main - checkCRCOnRecover=true
+2021-01-19 14:58:43 INFO main - flushCommitLogLeastPages=4
+2021-01-19 14:58:43 INFO main - commitCommitLogLeastPages=4
+2021-01-19 14:58:43 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2021-01-19 14:58:43 INFO main - flushConsumeQueueLeastPages=2
+2021-01-19 14:58:43 INFO main - flushCommitLogThoroughInterval=10000
+2021-01-19 14:58:43 INFO main - commitCommitLogThoroughInterval=200
+2021-01-19 14:58:43 INFO main - flushConsumeQueueThoroughInterval=60000
+2021-01-19 14:58:43 INFO main - maxTransferBytesOnMessageInMemory=262144
+2021-01-19 14:58:43 INFO main - maxTransferCountOnMessageInMemory=32
+2021-01-19 14:58:43 INFO main - maxTransferBytesOnMessageInDisk=65536
+2021-01-19 14:58:43 INFO main - maxTransferCountOnMessageInDisk=8
+2021-01-19 14:58:43 INFO main - accessMessageInMemoryMaxRatio=40
+2021-01-19 14:58:43 INFO main - messageIndexEnable=true
+2021-01-19 14:58:43 INFO main - maxHashSlotNum=5000000
+2021-01-19 14:58:43 INFO main - maxIndexNum=20000000
+2021-01-19 14:58:43 INFO main - maxMsgsNumBatch=64
+2021-01-19 14:58:43 INFO main - messageIndexSafe=false
+2021-01-19 14:58:43 INFO main - haListenPort=10912
+2021-01-19 14:58:43 INFO main - haSendHeartbeatInterval=5000
+2021-01-19 14:58:43 INFO main - haHousekeepingInterval=20000
+2021-01-19 14:58:43 INFO main - haTransferBatchSize=32768
+2021-01-19 14:58:43 INFO main - haMasterAddress=
+2021-01-19 14:58:43 INFO main - haSlaveFallbehindMax=268435456
+2021-01-19 14:58:43 INFO main - brokerRole=SYNC_MASTER
+2021-01-19 14:58:43 INFO main - flushDiskType=ASYNC_FLUSH
+2021-01-19 14:58:43 INFO main - syncFlushTimeout=5000
+2021-01-19 14:58:43 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2021-01-19 14:58:43 INFO main - flushDelayOffsetInterval=10000
+2021-01-19 14:58:43 INFO main - cleanFileForciblyEnable=true
+2021-01-19 14:58:43 INFO main - warmMapedFileEnable=false
+2021-01-19 14:58:43 INFO main - offsetCheckInSlave=false
+2021-01-19 14:58:43 INFO main - debugLockEnable=false
+2021-01-19 14:58:43 INFO main - duplicationEnable=false
+2021-01-19 14:58:43 INFO main - diskFallRecorded=true
+2021-01-19 14:58:43 INFO main - osPageCacheBusyTimeOutMills=1000
+2021-01-19 14:58:43 INFO main - defaultQueryMaxNum=32
+2021-01-19 14:58:43 INFO main - transientStorePoolEnable=false
+2021-01-19 14:58:43 INFO main - transientStorePoolSize=5
+2021-01-19 14:58:43 INFO main - fastFailIfNoBufferInStorePool=false
+2021-01-19 14:58:43 INFO main - enableDLegerCommitLog=false
+2021-01-19 14:58:43 INFO main - dLegerGroup=
+2021-01-19 14:58:43 INFO main - dLegerPeers=
+2021-01-19 14:58:43 INFO main - dLegerSelfId=
+2021-01-19 14:58:45 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:58:45 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:58:45 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:58:45 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:58:45 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:58:45 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:58:45 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 14:58:45 INFO main - load /home/rocketmq/store/config/topics.json OK
+2021-01-19 14:58:45 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2021-01-19 14:58:45 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2021-01-19 14:58:45 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2021-01-19 14:58:45 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2021-01-19 14:58:47 INFO main - Set user specified name server address: 10.140.0.2:9876
+2021-01-19 14:58:47 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2021-01-19 14:58:47 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2021-01-19 14:58:47 INFO main - The broker dose not enable acl
+2021-01-19 14:58:47 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2021-01-19 14:58:47 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2021-01-19 14:58:47 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2021-01-19 14:58:47 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2021-01-19 14:58:47 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2021-01-19 14:58:47 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2021-01-19 14:58:47 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2021-01-19 14:58:47 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2021-01-19 14:58:47 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2021-01-19 14:58:47 INFO FileWatchService - FileWatchService service started
+2021-01-19 14:58:47 INFO PullRequestHoldService - PullRequestHoldService service started
+2021-01-19 14:58:47 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2021-01-19 14:58:48 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:58:48 INFO main - The broker[broker-a, 10.140.0.2:10911] boot success. serializeType=JSON and name server is 10.140.0.2:9876
+2021-01-19 14:58:57 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 14:58:57 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 14:58:58 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 14:59:28 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:01:35 INFO main - rocketmqHome=/home/rocketmq/rocketmq-4.5.0
+2021-01-19 15:01:35 INFO main - namesrvAddr=10.140.0.2:9876
+2021-01-19 15:01:35 INFO main - brokerIP1=10.140.0.2
+2021-01-19 15:01:35 INFO main - brokerIP2=172.17.0.1
+2021-01-19 15:01:35 INFO main - brokerName=broker-a
+2021-01-19 15:01:35 INFO main - brokerClusterName=rocketmq-cluster
+2021-01-19 15:01:35 INFO main - brokerId=0
+2021-01-19 15:01:35 INFO main - brokerPermission=6
+2021-01-19 15:01:35 INFO main - defaultTopicQueueNums=4
+2021-01-19 15:01:35 INFO main - autoCreateTopicEnable=true
+2021-01-19 15:01:35 INFO main - clusterTopicEnable=true
+2021-01-19 15:01:35 INFO main - brokerTopicEnable=true
+2021-01-19 15:01:35 INFO main - autoCreateSubscriptionGroup=true
+2021-01-19 15:01:35 INFO main - messageStorePlugIn=
+2021-01-19 15:01:35 INFO main - msgTraceTopicName=RMQ_SYS_TRACE_TOPIC
+2021-01-19 15:01:35 INFO main - traceTopicEnable=false
+2021-01-19 15:01:35 INFO main - sendMessageThreadPoolNums=1
+2021-01-19 15:01:35 INFO main - pullMessageThreadPoolNums=20
+2021-01-19 15:01:35 INFO main - queryMessageThreadPoolNums=10
+2021-01-19 15:01:35 INFO main - adminBrokerThreadPoolNums=16
+2021-01-19 15:01:35 INFO main - clientManageThreadPoolNums=32
+2021-01-19 15:01:35 INFO main - consumerManageThreadPoolNums=32
+2021-01-19 15:01:35 INFO main - heartbeatThreadPoolNums=2
+2021-01-19 15:01:35 INFO main - endTransactionThreadPoolNums=12
+2021-01-19 15:01:35 INFO main - flushConsumerOffsetInterval=5000
+2021-01-19 15:01:35 INFO main - flushConsumerOffsetHistoryInterval=60000
+2021-01-19 15:01:35 INFO main - rejectTransactionMessage=false
+2021-01-19 15:01:35 INFO main - fetchNamesrvAddrByAddressServer=false
+2021-01-19 15:01:35 INFO main - sendThreadPoolQueueCapacity=10000
+2021-01-19 15:01:35 INFO main - pullThreadPoolQueueCapacity=100000
+2021-01-19 15:01:35 INFO main - queryThreadPoolQueueCapacity=20000
+2021-01-19 15:01:35 INFO main - clientManagerThreadPoolQueueCapacity=1000000
+2021-01-19 15:01:35 INFO main - consumerManagerThreadPoolQueueCapacity=1000000
+2021-01-19 15:01:35 INFO main - heartbeatThreadPoolQueueCapacity=50000
+2021-01-19 15:01:35 INFO main - endTransactionPoolQueueCapacity=100000
+2021-01-19 15:01:35 INFO main - filterServerNums=0
+2021-01-19 15:01:35 INFO main - longPollingEnable=true
+2021-01-19 15:01:35 INFO main - shortPollingTimeMills=1000
+2021-01-19 15:01:35 INFO main - notifyConsumerIdsChangedEnable=true
+2021-01-19 15:01:35 INFO main - highSpeedMode=false
+2021-01-19 15:01:35 INFO main - commercialEnable=true
+2021-01-19 15:01:35 INFO main - commercialTimerCount=1
+2021-01-19 15:01:35 INFO main - commercialTransCount=1
+2021-01-19 15:01:35 INFO main - commercialBigCount=1
+2021-01-19 15:01:35 INFO main - commercialBaseCount=1
+2021-01-19 15:01:35 INFO main - transferMsgByHeap=true
+2021-01-19 15:01:35 INFO main - maxDelayTime=40
+2021-01-19 15:01:35 INFO main - regionId=DefaultRegion
+2021-01-19 15:01:35 INFO main - registerBrokerTimeoutMills=6000
+2021-01-19 15:01:35 INFO main - slaveReadEnable=false
+2021-01-19 15:01:35 INFO main - disableConsumeIfConsumerReadSlowly=false
+2021-01-19 15:01:35 INFO main - consumerFallbehindThreshold=17179869184
+2021-01-19 15:01:35 INFO main - brokerFastFailureEnable=true
+2021-01-19 15:01:35 INFO main - waitTimeMillsInSendQueue=200
+2021-01-19 15:01:35 INFO main - waitTimeMillsInPullQueue=5000
+2021-01-19 15:01:35 INFO main - waitTimeMillsInHeartbeatQueue=31000
+2021-01-19 15:01:35 INFO main - waitTimeMillsInTransactionQueue=3000
+2021-01-19 15:01:35 INFO main - startAcceptSendRequestTimeStamp=0
+2021-01-19 15:01:35 INFO main - traceOn=true
+2021-01-19 15:01:35 INFO main - enableCalcFilterBitMap=false
+2021-01-19 15:01:35 INFO main - expectConsumerNumUseFilter=32
+2021-01-19 15:01:35 INFO main - maxErrorRateOfBloomFilter=20
+2021-01-19 15:01:35 INFO main - filterDataCleanTimeSpan=86400000
+2021-01-19 15:01:35 INFO main - filterSupportRetry=false
+2021-01-19 15:01:35 INFO main - enablePropertyFilter=false
+2021-01-19 15:01:35 INFO main - compressedRegister=false
+2021-01-19 15:01:35 INFO main - forceRegister=true
+2021-01-19 15:01:35 INFO main - registerNameServerPeriod=30000
+2021-01-19 15:01:35 INFO main - transactionTimeOut=6000
+2021-01-19 15:01:35 INFO main - transactionCheckMax=15
+2021-01-19 15:01:35 INFO main - transactionCheckInterval=60000
+2021-01-19 15:01:35 INFO main - aclEnable=false
+2021-01-19 15:01:35 INFO main - listenPort=10911
+2021-01-19 15:01:35 INFO main - serverWorkerThreads=8
+2021-01-19 15:01:35 INFO main - serverCallbackExecutorThreads=0
+2021-01-19 15:01:35 INFO main - serverSelectorThreads=3
+2021-01-19 15:01:35 INFO main - serverOnewaySemaphoreValue=256
+2021-01-19 15:01:35 INFO main - serverAsyncSemaphoreValue=64
+2021-01-19 15:01:35 INFO main - serverChannelMaxIdleTimeSeconds=120
+2021-01-19 15:01:35 INFO main - serverSocketSndBufSize=131072
+2021-01-19 15:01:35 INFO main - serverSocketRcvBufSize=131072
+2021-01-19 15:01:35 INFO main - serverPooledByteBufAllocatorEnable=true
+2021-01-19 15:01:35 INFO main - useEpollNativeSelector=false
+2021-01-19 15:01:35 INFO main - clientWorkerThreads=4
+2021-01-19 15:01:35 INFO main - clientCallbackExecutorThreads=2
+2021-01-19 15:01:35 INFO main - clientOnewaySemaphoreValue=65535
+2021-01-19 15:01:35 INFO main - clientAsyncSemaphoreValue=65535
+2021-01-19 15:01:35 INFO main - connectTimeoutMillis=3000
+2021-01-19 15:01:35 INFO main - channelNotActiveInterval=60000
+2021-01-19 15:01:35 INFO main - clientChannelMaxIdleTimeSeconds=120
+2021-01-19 15:01:35 INFO main - clientSocketSndBufSize=131072
+2021-01-19 15:01:35 INFO main - clientSocketRcvBufSize=131072
+2021-01-19 15:01:35 INFO main - clientPooledByteBufAllocatorEnable=false
+2021-01-19 15:01:35 INFO main - clientCloseSocketIfTimeout=false
+2021-01-19 15:01:35 INFO main - useTLS=false
+2021-01-19 15:01:35 INFO main - storePathRootDir=/home/rocketmq/store
+2021-01-19 15:01:35 INFO main - storePathCommitLog=/home/rocketmq/store/commitlog
+2021-01-19 15:01:35 INFO main - mapedFileSizeCommitLog=1073741824
+2021-01-19 15:01:35 INFO main - mapedFileSizeConsumeQueue=300000
+2021-01-19 15:01:35 INFO main - enableConsumeQueueExt=false
+2021-01-19 15:01:35 INFO main - mappedFileSizeConsumeQueueExt=50331648
+2021-01-19 15:01:35 INFO main - bitMapLengthConsumeQueueExt=64
+2021-01-19 15:01:35 INFO main - flushIntervalCommitLog=500
+2021-01-19 15:01:35 INFO main - commitIntervalCommitLog=200
+2021-01-19 15:01:35 INFO main - useReentrantLockWhenPutMessage=false
+2021-01-19 15:01:35 INFO main - flushCommitLogTimed=false
+2021-01-19 15:01:35 INFO main - flushIntervalConsumeQueue=1000
+2021-01-19 15:01:35 INFO main - cleanResourceInterval=10000
+2021-01-19 15:01:35 INFO main - deleteCommitLogFilesInterval=100
+2021-01-19 15:01:35 INFO main - deleteConsumeQueueFilesInterval=100
+2021-01-19 15:01:35 INFO main - destroyMapedFileIntervalForcibly=120000
+2021-01-19 15:01:35 INFO main - redeleteHangedFileInterval=120000
+2021-01-19 15:01:35 INFO main - deleteWhen=04
+2021-01-19 15:01:35 INFO main - diskMaxUsedSpaceRatio=88
+2021-01-19 15:01:35 INFO main - fileReservedTime=18
+2021-01-19 15:01:35 INFO main - putMsgIndexHightWater=600000
+2021-01-19 15:01:35 INFO main - maxMessageSize=65536
+2021-01-19 15:01:35 INFO main - checkCRCOnRecover=true
+2021-01-19 15:01:35 INFO main - flushCommitLogLeastPages=4
+2021-01-19 15:01:35 INFO main - commitCommitLogLeastPages=4
+2021-01-19 15:01:35 INFO main - flushLeastPagesWhenWarmMapedFile=4096
+2021-01-19 15:01:35 INFO main - flushConsumeQueueLeastPages=2
+2021-01-19 15:01:35 INFO main - flushCommitLogThoroughInterval=10000
+2021-01-19 15:01:35 INFO main - commitCommitLogThoroughInterval=200
+2021-01-19 15:01:35 INFO main - flushConsumeQueueThoroughInterval=60000
+2021-01-19 15:01:35 INFO main - maxTransferBytesOnMessageInMemory=262144
+2021-01-19 15:01:35 INFO main - maxTransferCountOnMessageInMemory=32
+2021-01-19 15:01:35 INFO main - maxTransferBytesOnMessageInDisk=65536
+2021-01-19 15:01:35 INFO main - maxTransferCountOnMessageInDisk=8
+2021-01-19 15:01:35 INFO main - accessMessageInMemoryMaxRatio=40
+2021-01-19 15:01:35 INFO main - messageIndexEnable=true
+2021-01-19 15:01:35 INFO main - maxHashSlotNum=5000000
+2021-01-19 15:01:35 INFO main - maxIndexNum=20000000
+2021-01-19 15:01:35 INFO main - maxMsgsNumBatch=64
+2021-01-19 15:01:35 INFO main - messageIndexSafe=false
+2021-01-19 15:01:35 INFO main - haListenPort=10912
+2021-01-19 15:01:35 INFO main - haSendHeartbeatInterval=5000
+2021-01-19 15:01:35 INFO main - haHousekeepingInterval=20000
+2021-01-19 15:01:35 INFO main - haTransferBatchSize=32768
+2021-01-19 15:01:35 INFO main - haMasterAddress=
+2021-01-19 15:01:35 INFO main - haSlaveFallbehindMax=268435456
+2021-01-19 15:01:35 INFO main - brokerRole=SYNC_MASTER
+2021-01-19 15:01:35 INFO main - flushDiskType=ASYNC_FLUSH
+2021-01-19 15:01:35 INFO main - syncFlushTimeout=5000
+2021-01-19 15:01:35 INFO main - messageDelayLevel=1s 5s 10s 30s 1m 2m 3m 4m 5m 6m 7m 8m 9m 10m 20m 30m 1h 2h
+2021-01-19 15:01:35 INFO main - flushDelayOffsetInterval=10000
+2021-01-19 15:01:35 INFO main - cleanFileForciblyEnable=true
+2021-01-19 15:01:35 INFO main - warmMapedFileEnable=false
+2021-01-19 15:01:35 INFO main - offsetCheckInSlave=false
+2021-01-19 15:01:35 INFO main - debugLockEnable=false
+2021-01-19 15:01:35 INFO main - duplicationEnable=false
+2021-01-19 15:01:35 INFO main - diskFallRecorded=true
+2021-01-19 15:01:35 INFO main - osPageCacheBusyTimeOutMills=1000
+2021-01-19 15:01:35 INFO main - defaultQueryMaxNum=32
+2021-01-19 15:01:35 INFO main - transientStorePoolEnable=false
+2021-01-19 15:01:35 INFO main - transientStorePoolSize=5
+2021-01-19 15:01:35 INFO main - fastFailIfNoBufferInStorePool=false
+2021-01-19 15:01:35 INFO main - enableDLegerCommitLog=false
+2021-01-19 15:01:35 INFO main - dLegerGroup=
+2021-01-19 15:01:35 INFO main - dLegerPeers=
+2021-01-19 15:01:35 INFO main - dLegerSelfId=
+2021-01-19 15:01:36 INFO main - load exist local topic, TopicConfig [topicName=RMQ_SYS_TRANS_HALF_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 15:01:36 INFO main - load exist local topic, TopicConfig [topicName=BenchmarkTest, readQueueNums=1024, writeQueueNums=1024, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 15:01:36 INFO main - load exist local topic, TopicConfig [topicName=OFFSET_MOVED_EVENT, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 15:01:36 INFO main - load exist local topic, TopicConfig [topicName=broker-a, readQueueNums=1, writeQueueNums=1, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 15:01:36 INFO main - load exist local topic, TopicConfig [topicName=TBW102, readQueueNums=8, writeQueueNums=8, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 15:01:36 INFO main - load exist local topic, TopicConfig [topicName=SELF_TEST_TOPIC, readQueueNums=1, writeQueueNums=1, perm=RW-, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 15:01:36 INFO main - load exist local topic, TopicConfig [topicName=DefaultCluster, readQueueNums=16, writeQueueNums=16, perm=RWX, topicFilterType=SINGLE_TAG, topicSysFlag=0, order=false]
+2021-01-19 15:01:36 INFO main - load /home/rocketmq/store/config/topics.json OK
+2021-01-19 15:01:36 INFO main - load /home/rocketmq/store/config/consumerOffset.json OK
+2021-01-19 15:01:36 INFO main - load /home/rocketmq/store/config/consumerFilter.json OK
+2021-01-19 15:01:37 INFO main - Try to start service thread:AllocateMappedFileService started:false lastThread:null
+2021-01-19 15:01:37 INFO main - load /home/rocketmq/store/config/delayOffset.json OK
+2021-01-19 15:01:39 INFO main - Set user specified name server address: 10.140.0.2:9876
+2021-01-19 15:01:39 WARN main - Load default transaction message hook service: TransactionalMessageServiceImpl
+2021-01-19 15:01:39 WARN main - Load default discard message hook service: DefaultTransactionalMessageCheckListener
+2021-01-19 15:01:39 INFO main - The broker dose not enable acl
+2021-01-19 15:01:39 INFO main - Try to start service thread:ReputMessageService started:false lastThread:null
+2021-01-19 15:01:40 INFO main - Try to start service thread:AcceptSocketService started:false lastThread:null
+2021-01-19 15:01:40 INFO main - Try to start service thread:GroupTransferService started:false lastThread:null
+2021-01-19 15:01:40 INFO main - Try to start service thread:HAClient started:false lastThread:null
+2021-01-19 15:01:40 INFO main - Try to start service thread:FlushConsumeQueueService started:false lastThread:null
+2021-01-19 15:01:40 INFO main - Try to start service thread:FlushRealTimeService started:false lastThread:null
+2021-01-19 15:01:40 INFO main - Try to start service thread:StoreStatsService started:false lastThread:null
+2021-01-19 15:01:40 INFO main - Try to start service thread:FileWatchService started:false lastThread:null
+2021-01-19 15:01:40 INFO main - Try to start service thread:PullRequestHoldService started:false lastThread:null
+2021-01-19 15:01:40 INFO FileWatchService - FileWatchService service started
+2021-01-19 15:01:40 INFO PullRequestHoldService - PullRequestHoldService service started
+2021-01-19 15:01:40 INFO main - Try to start service thread:TransactionalMessageCheckService started:false lastThread:null
+2021-01-19 15:01:41 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:01:41 INFO main - The broker[broker-a, 10.140.0.2:10911] boot success. serializeType=JSON and name server is 10.140.0.2:9876
+2021-01-19 15:01:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:01:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:01:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:02:21 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:02:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:02:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:02:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:03:21 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:03:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:03:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:03:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:04:21 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:04:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:04:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:04:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:05:21 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:05:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:05:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:05:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:06:21 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:06:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:06:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:06:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:07:21 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:07:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:07:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:07:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:08:21 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:08:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:08:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:08:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:09:21 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:09:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:09:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:09:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:10:21 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:10:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:10:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:10:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:11:21 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:11:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:11:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:11:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:12:21 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:12:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:12:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:12:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:13:21 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:13:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:13:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:13:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:14:21 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:14:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:14:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:14:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:15:21 INFO brokerOutApi_thread_1 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:15:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:15:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:15:51 INFO brokerOutApi_thread_2 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:16:21 INFO brokerOutApi_thread_3 - register broker[0]to name server 10.140.0.2:9876 OK
+2021-01-19 15:16:49 INFO BrokerControllerScheduledThread1 - dispatch behind commit log 0 bytes
+2021-01-19 15:16:49 INFO BrokerControllerScheduledThread1 - Slave fall behind master: 0 bytes
+2021-01-19 15:16:51 INFO brokerOutApi_thread_4 - register broker[0]to name server 10.140.0.2:9876 OK

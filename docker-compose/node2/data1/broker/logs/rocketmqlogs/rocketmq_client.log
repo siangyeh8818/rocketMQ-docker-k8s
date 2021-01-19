@@ -1,0 +1,149 @@
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent - Java version: 8
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2021-01-06 06:38:37,037 DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2021-01-06 06:38:38,038 DEBUG io.netty.util.internal.PlatformDependent - Javassist: available
+2021-01-06 06:38:38,038 DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2021-01-06 06:38:38,038 DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-01-06 06:38:38,038 DEBUG io.netty.util.internal.PlatformDependent - io.netty.maxDirectMemory: 1040187392 bytes
+2021-01-06 06:38:38,038 DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2021-01-06 06:38:38,038 INFO io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@13c10b87
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - name server address updated. NEW : [127.0.0.1:9876] , OLD: null
+2021-01-06 06:38:38,038 INFO RocketmqClient - user specified name server address: 127.0.0.1:9876
+2021-01-06 06:38:38,038 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:172.18.0.4@1609915117881, ClientConfig:ClientConfig [namesrvAddr=127.0.0.1:9876, clientIP=172.18.0.4, instanceName=1609915117881, clientCallbackExecutorThreads=2, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA], ClientVersion:V4_5_0, SerializerType:JSON
+2021-01-06 06:38:38,038 INFO RocketmqClient - Created new MQClientInstance for clientId:[172.18.0.4@1609915117881]
+2021-01-06 06:38:38,038 INFO RocketmqCommon - Try to start service thread:PullMessageService started:false lastThread:null
+2021-01-06 06:38:38,038 INFO RocketmqCommon - Try to start service thread:RebalanceService started:false lastThread:null
+2021-01-06 06:38:38,038 INFO RocketmqClient - PullMessageService service started
+2021-01-06 06:38:38,038 INFO RocketmqClient - RebalanceService service started
+2021-01-06 06:38:38,038 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2021-01-06 06:38:38,038 INFO RocketmqClient - the client factory [172.18.0.4@1609915117881] start OK
+2021-01-06 06:38:38,038 INFO RocketmqClient - the adminExt [admin_ext_group] start OK
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: 127.0.0.1:9876. namesrvIndex = 882
+2021-01-06 06:38:38,038 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2021-01-06 06:38:38,038 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2021-01-06 06:38:38,038 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - createChannel: begin to connect remote host[127.0.0.1:9876] asynchronously
+2021-01-06 06:38:38,038 DEBUG io.netty.util.internal.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.org.apache.rocketmq.remoting.protocol.RemotingCommandMatcher
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:9876
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CLOSE 
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - closeChannel: the channel[127.0.0.1:9876] was removed from channel table
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CLOSE 
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - eventCloseChannel: the channel[null] has been removed from the channel table before
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - closeChannel: close the connection to remote address[] result: true
+2021-01-06 06:38:38,038 WARN RocketmqRemoting - createChannel: connect remote host[127.0.0.1:9876] failed, DefaultChannelPromise@67d48005(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-01-06 06:38:38,038 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] shutdown OK
+2021-01-06 06:38:38,038 INFO RocketmqCommon - Try to shutdown service thread:PullMessageService started:true lastThread:Thread[PullMessageService,5,main]
+2021-01-06 06:38:38,038 INFO RocketmqCommon - shutdown thread PullMessageService interrupt true
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - new name server is chosen. OLD: 127.0.0.1:9876 , NEW: 127.0.0.1:9876. namesrvIndex = 883
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - createChannel: begin to connect remote host[127.0.0.1:9876] asynchronously
+2021-01-06 06:38:38,038 INFO RocketmqClient - PullMessageService service end
+2021-01-06 06:38:38,038 INFO RocketmqCommon - join thread PullMessageService eclipse time(ms) 1 90000
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - closeChannel: begin close the channel[] Found: false
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - closeChannel: the channel[] has been removed from the channel table before
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - shutdown thread NettyEventExecutor interrupt false
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - join thread NettyEventExecutor eclipse time(ms) 0 90000
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - closeChannel: close the connection to remote address[] result: true
+2021-01-06 06:38:38,038 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:9876
+2021-01-06 06:38:38,038 INFO RocketmqCommon - Try to shutdown service thread:RebalanceService started:true lastThread:Thread[RebalanceService,5,main]
+2021-01-06 06:38:38,038 INFO RocketmqCommon - shutdown thread RebalanceService interrupt false
+2021-01-06 06:38:38,038 INFO RocketmqClient - RebalanceService service end
+2021-01-06 06:38:38,038 INFO RocketmqCommon - join thread RebalanceService eclipse time(ms) 5 90000
+2021-01-06 06:38:38,038 INFO RocketmqClient - the client factory [172.18.0.4@1609915117881] shutdown OK
+2021-01-06 06:38:38,038 INFO RocketmqClient - the adminExt [admin_ext_group] shutdown OK
+2021-01-06 06:38:38,038 WARN RocketmqRemoting - createChannel: connect remote host[127.0.0.1:9876] failed, DefaultChannelPromise@5322737b(failure: java.nio.channels.ClosedChannelException)
+java.nio.channels.ClosedChannelException
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.ensureOpen(...)(Unknown Source)
+
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: available
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.Cleaner0 - java.nio.ByteBuffer.cleaner(): available
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - Java version: 8
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noUnsafe: false
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noJavassist: false
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - Javassist: available
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - io.netty.maxDirectMemory: 1040187392 bytes
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+2021-01-06 06:40:22,022 INFO io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@13c10b87
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - name server address updated. NEW : [127.0.0.1:9876] , OLD: null
+2021-01-06 06:40:22,022 INFO RocketmqClient - user specified name server address: 127.0.0.1:9876
+2021-01-06 06:40:22,022 INFO RocketmqClient - Created a new client Instance, InstanceIndex:0, ClientID:172.18.0.4@1609915221983, ClientConfig:ClientConfig [namesrvAddr=127.0.0.1:9876, clientIP=172.18.0.4, instanceName=1609915221983, clientCallbackExecutorThreads=2, pollNameServerInterval=30000, heartbeatBrokerInterval=30000, persistConsumerOffsetInterval=5000, unitMode=false, unitName=null, vipChannelEnabled=true, useTLS=false, language=JAVA], ClientVersion:V4_5_0, SerializerType:JSON
+2021-01-06 06:40:22,022 INFO RocketmqClient - Created new MQClientInstance for clientId:[172.18.0.4@1609915221983]
+2021-01-06 06:40:22,022 INFO RocketmqCommon - Try to start service thread:PullMessageService started:false lastThread:null
+2021-01-06 06:40:22,022 INFO RocketmqCommon - Try to start service thread:RebalanceService started:false lastThread:null
+2021-01-06 06:40:22,022 INFO RocketmqClient - PullMessageService service started
+2021-01-06 06:40:22,022 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] start OK. sendMessageWithVIPChannel=true
+2021-01-06 06:40:22,022 INFO RocketmqClient - the client factory [172.18.0.4@1609915221983] start OK
+2021-01-06 06:40:22,022 INFO RocketmqClient - the adminExt [admin_ext_group] start OK
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - new name server is chosen. OLD: null , NEW: 127.0.0.1:9876. namesrvIndex = 846
+2021-01-06 06:40:22,022 INFO RocketmqClient - RebalanceService service started
+2021-01-06 06:40:22,022 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: unpooled
+2021-01-06 06:40:22,022 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 65536
+2021-01-06 06:40:22,022 DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - createChannel: begin to connect remote host[127.0.0.1:9876] asynchronously
+2021-01-06 06:40:22,022 DEBUG io.netty.util.internal.JavassistTypeParameterMatcherGenerator - Generated: io.netty.util.internal.__matchers__.org.apache.rocketmq.remoting.protocol.RemotingCommandMatcher
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:9876
+2021-01-06 06:40:22,022 WARN RocketmqRemoting - createChannel: connect remote host[127.0.0.1:9876] failed, DefaultChannelPromise@67d48005(failure: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9876)
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:9876
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:257)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:291)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:640)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:575)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:489)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:451)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:140)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-01-06 06:40:22,022 INFO RocketmqClient - the producer [CLIENT_INNER_PRODUCER] shutdown OK
+2021-01-06 06:40:22,022 INFO RocketmqCommon - Try to shutdown service thread:PullMessageService started:true lastThread:Thread[PullMessageService,5,main]
+2021-01-06 06:40:22,022 INFO RocketmqCommon - shutdown thread PullMessageService interrupt true
+2021-01-06 06:40:22,022 INFO RocketmqClient - PullMessageService service end
+2021-01-06 06:40:22,022 INFO RocketmqCommon - join thread PullMessageService eclipse time(ms) 1 90000
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - closeChannel: begin close the channel[] Found: false
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - closeChannel: the channel[] has been removed from the channel table before
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - shutdown thread NettyEventExecutor interrupt false
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - join thread NettyEventExecutor eclipse time(ms) 0 90000
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CLOSE 
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - eventCloseChannel: the channel[null] has been removed from the channel table before
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - new name server is chosen. OLD: 127.0.0.1:9876 , NEW: 127.0.0.1:9876. namesrvIndex = 847
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - createChannel: begin to connect remote host[127.0.0.1:9876] asynchronously
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - closeChannel: close the connection to remote address[] result: true
+2021-01-06 06:40:22,022 INFO RocketmqRemoting - NETTY CLIENT PIPELINE: CONNECT  UNKNOWN => 127.0.0.1:9876
+2021-01-06 06:40:22,022 WARN RocketmqRemoting - createChannel: connect remote host[127.0.0.1:9876] failed, DefaultChannelPromise@5322737b(failure: java.nio.channels.ClosedChannelException)
+java.nio.channels.ClosedChannelException
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.ensureOpen(...)(Unknown Source)
+
+2021-01-06 06:40:22,022 INFO RocketmqCommon - Try to shutdown service thread:RebalanceService started:true lastThread:Thread[RebalanceService,5,main]
+2021-01-06 06:40:22,022 INFO RocketmqCommon - shutdown thread RebalanceService interrupt false
+2021-01-06 06:40:22,022 INFO RocketmqClient - RebalanceService service end
+2021-01-06 06:40:22,022 INFO RocketmqCommon - join thread RebalanceService eclipse time(ms) 1 90000
+2021-01-06 06:40:22,022 INFO RocketmqClient - the client factory [172.18.0.4@1609915221983] shutdown OK
+2021-01-06 06:40:22,022 INFO RocketmqClient - the adminExt [admin_ext_group] shutdown OK
